@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String sayHello(String name){
-		
+		System.out.println("testing GIT");
 		return "hello "+name;
 		
 	}
